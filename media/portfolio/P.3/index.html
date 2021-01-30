@@ -1,19 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>SpaceX - Travel Agency</title>
-  
+  <meta charset="utf-8">
+  <title>Space X - Travel Agency</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
   <link rel="shortcut icon" href="./media/icon.png">
-  <link rel="stylesheet" href="./style.css">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/helperClasses.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 
+  <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
-<div class="gradient">
   <header>
     <div class="title">
       <a href="http://www.spacex.com" target="_blank">
@@ -30,6 +43,9 @@
     </div>
     <div class="line"></div>
   </header>
+
+  
+
   <main>
     <div class="carousel">
       <div class="carousel__figure">
@@ -43,20 +59,20 @@
       <div class="perspective">
         <div class="perspective__3d">
           <div class="perspective__3d--card" style="background:url(./media/off1.jpeg);">
-          <h2>A weekend in space</h2>
-          <span>from $5.000</span>
+            <h2>A weekend in space</h2>
+            <span>from $5.000</span>
           </div>
         </div>
         <div class="perspective__3d">
           <div class="perspective__3d--card" style="background:url(./media/off2.jpg);">
-          <h2>Take a rest on the moon</h2>
-          <span>from $15.000</span>
+            <h2>Take a rest on the moon</h2>
+            <span>from $15.000</span>
           </div>
         </div>
         <div class="perspective__3d">
           <div class="perspective__3d--card" style="background:url(./media/off3.jpg);">
-          <h2>Holidays on Mars</h2>
-          <span>from $45.000</span>
+            <h2>Holidays on Mars</h2>
+            <span>from $45.000</span>
           </div>
         </div>
       </div>
@@ -70,6 +86,7 @@
         <div class="button__text">GET STARTED</div>
       </a>
     </div>
+
   </main>
 
   <footer>
@@ -78,12 +95,23 @@
       <a href="http://facebook.fr"><i class="fa fa-facebook"></i></a>
       <a href="http://flickr.fr"><i class="fa fa-flickr"></i></a>
       <a href="http://instagram.com"><i class="fa fa-instagram"></i></a>
-      <a href="#">fromScratch(); © 2020</a>
+      <a href="#">Jorge Da Silva © 2020</a>
     </div>
   </footer>
 
+
+  
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
   <script type="text/javascript" src="assets/jquery.min.js" ></script>
-  <script type="text/javascript" src="./script.js"></script>
-</div>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
+
 </html>
