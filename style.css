@@ -127,3 +127,29 @@ header .button:hover a {
   transition: all 0.3s ease-in-out;
   text-decoration: none;
 }
+
+/**************** LANGAGES  **********************************/
+#langages {
+  padding: 80px 80px 80px 50px;
+  margin: 20px 0 0 5%;
+  height: 620px;
+  width: 47%;
+  max-width: 640px;
+  background: #b993d6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #8ca6db,
+    #b993d6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #8ca6db,
+    #b993d6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  clip-path: polygon(6% 5%, 100% 0%, 94% 100%, 0 92%);
+}
+#langages .bar {
+  padding: 10px 0px 4px 0px;
+  letter-spacing: 0.1em;
+}
