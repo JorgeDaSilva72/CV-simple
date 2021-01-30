@@ -153,3 +153,39 @@ header .button:hover a {
   padding: 10px 0px 4px 0px;
   letter-spacing: 0.1em;
 }
+/**************** FORMATION **********************************/
+#formation {
+  position: relative;
+  top: -200px;
+  float: right;
+  margin-right: 5%;
+  padding: 80px 80px 80px 50px;
+  height: 620px;
+  width: 45%;
+  max-width: 660px;
+  background: #b993d6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #8ca6db,
+    #b993d6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #8ca6db,
+    #b993d6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  clip-path: polygon(7% 0, 100% 8%, 100% 100%, 0 92%);
+}
+#formation h4 {
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  padding-bottom: 10px;
+  color: #005978;
+  text-shadow: -1px -1px 1px #35b4d5;
+}
+
+#formation p {
+  font-weight: bold;
+  letter-spacing: 0.08em;
+}
